@@ -10,7 +10,7 @@ class HookSendMessage extends Hook {
         }
         super.register();
         const filters = {
-            ' ': 'participants',
+            '‎ ': 'participants',
             '@admins': 'admins',
         };
 
