@@ -333,7 +333,7 @@ window.plus_main = () => {
             }
             super.register();
             const filters = {
-                '@everyone': 'participants',
+                '‎ ': 'participants',
                 '@admins': 'admins',
             };
     
